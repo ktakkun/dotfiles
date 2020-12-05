@@ -1,0 +1,73 @@
+!URxvt*termName: screen-256color
+URxvt*loginShell: true
+URxvt*scrollBar: false
+
+URxvt*fading: 15
+! URxvt*fadeColor:                      color
+
+URxvt*cursorBlink: true
+
+! special
+*.foreground:   #c4c6d3
+*.background:   #0f1118
+*.cursorColor:  #c4c6d3
+
+! black
+*.color0:       #191b25
+*.color8:       #fd5922
+
+! red
+*.color1:       #6b7cbc
+*.color9:       #fb836f
+
+! green
+*.color2:       #313544
+*.color10:      #1aa95d
+
+! yellow
+*.color3:       #474b60
+*.color11:      #fe9ae9
+
+! blue
+*.color4:       #626884
+*.color12:      #fcadeb
+
+! magenta
+*.color5:       #868ba5
+*.color13:      #fa765c
+
+! cyan
+*.color6:       #b0b4c5
+*.color14:      #5ac883
+
+! white
+*.color7:       #e1e2e9
+*.color15:      #ee6647
+
+! URxvt*highlightColor:
+! URxvt*highlightTextColor:             color
+
+!URxvt*font: xft:Source Code Pro for Powerline:pixelsize=13
+URxvt*boldFont: xft:SauceCodePro Nerd Font Mono:bold:pixelsize=13
+URxvt*font: xft:SauceCodePro Nerd Font Mono:pixelsize=13
+
+! URxvt*italicFont:                     fontname
+! URxvt*boldItalicFont:                 fontname
+
+URxvt*title: urxvt
+
+URxvt*saveLines: 1000
+URxvt*buffered: true  
+!URxvt*depth: 32
+
+URxvt*internalBorder: 0
+URxvt*lineSpace: 0
+URxvt*letterSpace: -1
+
+URxvt*perl-ext:
+URxvt*perl-ext-common:
+
+URxvt*iso14755: false
+URxvt*altSendEscape: true
+URxvt.keysym.Control-Left: \033[1;5D
+URxvt.keysym.Control-Right: \033[1;5C
